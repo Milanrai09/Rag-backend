@@ -1,0 +1,41 @@
+
+PDF
+ ↓
+Extract text
+ ↓
+Chunk
+ ↓
+Embedding model
+ ↓
+Vector DB
+
+         (Runtime)
+User question
+ ↓
+Embedding model
+ ↓
+Vector DB search
+ ↓
+Top chunks
+ ↓
+LLM
+ ↓
+Final answer
+
+
+
+tools: 
+
+import { Pinecone } from "@pinecone-database/pinecone";
+import { encoding_for_model } from "tiktoken";
+
+
+
+
+
+
+
+
+
+
+

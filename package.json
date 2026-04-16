@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^7.2.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.4",
+    "nodemon": "^3.1.14",
+    "openai": "^6.34.0",
+    "pdf-parse": "^2.4.5",
+    "playwright": "^1.59.1",
+    "slugify": "^1.6.9",
+    "tiktoken": "^1.0.22",
+    "uuid": "^13.0.0"
+  }
+}
